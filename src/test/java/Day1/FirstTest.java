@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class FirstTest {
 
-	@Test(priority = 1)
+	@Test(priority = 1)   //here if we don't write @test then it won't run this method and priority means as u know run according to given priority 
 	void openapp()
 	{
 		System.out.println("app has open!");
