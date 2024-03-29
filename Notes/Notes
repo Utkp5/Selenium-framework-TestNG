@@ -8,8 +8,8 @@ Annotations
 @BeforeClass  -- means it will run before entire test method executes
 @AfterClass   -- means it will run after entire  test method executes
 
-@BeforeTest
-@AfterTest
+@BeforeTest   --
+@AfterTest    --
 
 @BeforeSuite
 @AfterSuite
