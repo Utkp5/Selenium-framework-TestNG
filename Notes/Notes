@@ -1,0 +1,38 @@
+Annotations
+-----------
+@Test
+
+@BeforeMethod -- means it will run before every test method 
+@AfterMethod  -- means it will run after  every test method
+
+@BeforeClass  -- means it will run before entire test method executes
+@AfterClass   -- means it will run after entire  test method executes
+
+@BeforeTest
+@AfterTest
+
+@BeforeSuite
+@AfterSuite
+
+
+Suite-->Tests--->Classes--->Methods
+
+XML -- Tests----Classes--->Methods
+
+Assertions---here means----validations instead of using if else we use this assertions
+
+Hard assertions
+---------------
+access though 'Assert' class
+all methods are static
+if hard assertion got failed then rest of the statement will not be executed.
+
+Soft assertions
+---------------
+access through 'SoftAssert' object
+
+SoftAssert sa=new SoftAssert();
+sa.assertTrue()
+
+if soft assertion got failed then rest of the statemetns still execute.
+
