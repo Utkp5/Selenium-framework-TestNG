@@ -5,15 +5,10 @@
 <suite name="my suite">
 	<test name="my tests">
 		
-		<groups>
-			<run>
-				<include name="regression" /> 
-				<exclude name="sanity" />
-			</run>
-		</groups>
 		
 		<classes>
-			<class name="Day3.Grouping" />
+			
+			<class name="Day3.Data_Provider" />
 		</classes>
 		
 	</test>
