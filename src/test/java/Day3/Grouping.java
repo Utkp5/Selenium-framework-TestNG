@@ -16,6 +16,8 @@ paymentindollar - sanity
 paymentReturnbyBank  - regression
 */
 
+// comment out the testng.xml
+
 // In testng.xml file includes menas it will run only that particular name methods and excludes means it will exculdes those methods
 public class Grouping {
 
